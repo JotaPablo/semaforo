@@ -12,6 +12,7 @@ typedef enum {
     VERDE } EstadoSemaforo;
 
 
+
 // Esta função alterna o estado do LED e imprime uma mensagem na saída serial.
 bool semaforo_callback(struct repeating_timer *t) {
     
