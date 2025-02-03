@@ -27,8 +27,8 @@ Este projeto simula um **semáforo** utilizando um **Raspberry Pi Pico** e três
 1. **Pré-requisitos**
    - Clonar o repositório:
      ```bash
-     git clone https://github.com/JotaPablo/semaforo.git
-     cd interrupcao
+     git clone https://github.com/JotaPablo/temp_periodico.git
+     cd temp_periodico
      ```
    - Instalar o **Visual Studio** Code com as seguintes extensões:
      - **Raspberry Pi Pico SDK**
