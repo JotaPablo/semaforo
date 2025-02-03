@@ -18,7 +18,7 @@ Este projeto simula um **semáforo** utilizando um **Raspberry Pi Pico** e três
 
 | Arquivo           | Descrição                                       |
 |-------------------|-----------------------------------------------|
-| `semaforo.c`     | Código principal com controle dos LEDs        |
+| `temp_periodico.c`     | Código principal com controle dos LEDs        |
 | `diagram.json`   | Arquivo de configuração para simulação no Wokwi |
 | `wokwi.toml`     | Configurações do simulador Wokwi              |
 | `CMakeLists.txt` | Arquivo de build do CMake                     |
