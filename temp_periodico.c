@@ -61,11 +61,13 @@ int main()
     gpio_set_dir(BLUE_PIN, GPIO_OUT); // Configura o pino como saída
 
     struct repeating_timer timer;
+
+     //Chama a função para ativar o LED vermelho inicialmente
+    semaforo_callback(&timer);
+
     //Configura para chamar semaforo_callback a cada 3 segundos
     add_repeating_timer_ms(3000, semaforo_callback, NULL, &timer);
     
-    //Ativa o LED inicialmente
-    semaforo_callback(&timer);
     while (true) {
         printf("1 segundo passou\n");
         sleep_ms(1000);
